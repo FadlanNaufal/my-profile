@@ -140,6 +140,7 @@ nav ul li a:hover {
 
 .hero-container .hero-image-section .hero-image {
     width: 100%;
+    border-radius: 70px 0px 70px 0px;
 }
 
 .btn-download-cv {
@@ -279,7 +280,7 @@ nav ul li a:hover {
     }
 
     .hero-container .hero-image-section {
-        width: 100%;
+        display: none;
     }
 
     .ts-container .ts-image-container img{
@@ -346,6 +347,10 @@ nav ul li a:hover {
         width: 30%;
         margin: 0px 20px;
         margin-bottom: 20px;
+    }
+
+    .btn-download-cv {
+        width: 50%;
     }
 
     .mw-container {
