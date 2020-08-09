@@ -296,7 +296,7 @@ nav ul li a:hover {
 
 /* Responsive Mobile */
 
-@media(max-width : 576px){
+@media(max-width : 450px){
     nav ul {
         position: absolute;
         right: 0;
