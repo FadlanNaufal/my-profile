@@ -146,6 +146,8 @@ nav ul li a:hover {
     margin-top: 20px;
     padding: 10px 30px;
     background-color: green;
+    align-items: center;
+    justify-content: center;
     border: 0;
     border-radius: 4px;
     color: white;
@@ -292,11 +294,26 @@ nav ul li a:hover {
         margin: 0px 20px;
         margin-bottom: 20px;
     }
+
+    body {
+        overflow-x: hidden;
+    }
 }
 
 /* Responsive Mobile */
 
-@media(max-width : 450px){
+@media(max-width : 350px){
+    body {
+        overflow-x: hidden;
+    }
+}
+
+@media(max-width : 500px){
+
+    body {
+        overflow-x: hidden;
+    }
+
     nav ul {
         position: absolute;
         right: 0;
@@ -322,6 +339,7 @@ nav ul li a:hover {
         display: flex;
     }
 
+
     .hero-container{
         flex-direction: column;
     }
@@ -333,6 +351,10 @@ nav ul li a:hover {
 
     .hero-container .hero-image-section {
         display: none;
+    }
+
+    .btn-download-cv {
+        width: 45%;
     }
     
     .ts-container .ts-image-container img{
